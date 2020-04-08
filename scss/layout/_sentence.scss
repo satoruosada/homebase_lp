@@ -1,0 +1,79 @@
+.l-sentence{
+  padding-bottom: 30px;
+  font-family: sans-serif;
+  font-size: 18px;
+  letter-spacing: 5px;
+  @include mq(){
+    margin: 0 20px;
+    font-size: 13px;
+    text-align: left;
+    position: relative;
+    top: -120px;
+    left: 20px;
+  }
+  &__1{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    ont-family: sans-serif;
+    font-size: 18px;
+    letter-spacing: 5px;
+   @include mq{
+    margin: 0 20px;
+    font-size: 13px;
+    position: relative;
+    top: -130px;
+   }
+ }
+ &__pk{
+   width: 60%;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    font-size: 18px;
+    line-height: 35px;
+    font-family: auto;
+    padding-left: 40px;
+    @include mq{
+      width: 90%;
+    font-size: 14px;
+    margin: 0 auto;
+    margin-top: -20px;
+    }
+  }
+}
+.l-sentence__2{
+  width: 80%;
+  font-size: 16px;
+  font-family: sans-serif;
+  letter-spacing: 5px;
+  line-height: 35px;
+  position: relative;
+  left: 1px;
+  top:-130px;
+  @include mq(){
+    font-size: 16px;
+    width: 80vw;
+    position: relative;
+    left: 40px;
+  }
+  &__right{
+    margin-top: 60px;
+    font-size: 18px;
+    &__sub{
+      width: 500px;
+    }
+  }
+}
+.l-sentence__3{
+  @include mq{
+    font-size: 12px;
+    position: relative;
+    left: -30px;
+  }
+}
+.l-sentence__4{
+  @include mq{
+    font-size: 12px;
+    position: relative;
+    left: -30px;
+  }
+}

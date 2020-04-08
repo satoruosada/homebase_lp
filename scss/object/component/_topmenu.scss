@@ -1,0 +1,35 @@
+//===============
+//top-menu
+//===============
+.c-topmenu{
+  display: flex;
+  font-size: 14px;
+  font-family: 'Noto Sans Japanese';
+  position: absolute;
+  top: -25px;
+  right: 0;
+  background: black;
+  padding: 35px 10px 10px 1px;
+  letter-spacing: 0.14em;
+    &__item{
+      margin-right: 35px;
+    }
+    &__link{
+      -webkit-font-smoothing:initial;
+      color: white;
+      font-weight: unset;
+      margin-left: 5px;
+      position: relative;
+      left: 20px;
+      &__sec{
+        margin-right: $space_3l;
+        color: white;
+        font-weight: unset;
+        position: relative;
+        left: 20px;
+      }
+  }
+  @include mq(){
+    display: none;
+  }
+}

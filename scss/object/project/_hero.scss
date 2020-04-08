@@ -1,0 +1,55 @@
+//==============
+//hero
+//==============
+.p-hero{
+  background-image: url(../images/main.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  top:120px;
+  right:0px;
+  height: 900px;
+  width:900px;
+  margin: 0 auto;
+  margin-bottom: -30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @include mq{
+
+  }
+  &__img{
+    position: relative;
+    top: -340px;
+    left: -413px;
+    @include mq(){
+      width: 50%;
+      padding: re;
+      position: relative;
+      top: -270px;
+     left: -20px;
+    }
+  }
+  &__title{
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #0b0a0a;
+    position: relative;
+    left: -716px;
+    top: 10px;
+    @include mq(){
+      top: -220px;
+      left: -180px;
+      writing-mode: unset;
+      font-size: 12px;
+    }
+  }
+}
+.js-slideIn{
+  opacity:2;
+  transform: translateX(-400px);
+  transition: all 5s;
+}

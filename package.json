@@ -1,0 +1,20 @@
+{
+  "name": "homebase_lp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "node-sass --include-path scss scss/app.scss css/app.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "satoruosada <satoru.5714@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "instafeed.js": "^1.4.1",
+    "install": "^0.13.0",
+    "jquery-simplyscroll": "^2.1.1",
+    "node-sass": "^4.13.0",
+    "nodemon": "^2.0.2",
+    "npm": "^6.13.6",
+    "or": "^0.2.0"
+  }
+}

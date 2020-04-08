@@ -1,0 +1,71 @@
+.button {
+  display: block;
+  width: 467px;
+  height: 120px;;
+  margin: 0 auto;
+  background-color: white;
+  border: 4px solid #333;
+  color: #fff;
+  line-height: 50px;
+  @include mq{
+    display: block;
+    width: 467px;
+    height: 120px;
+    margin: 0 auto;
+    background-color: white;
+    border: 3px solid #333;
+    color: #fff;
+    line-height: 50px;
+    position: relative;
+    top: 30px;
+  }
+}
+.button__sub{
+  @include mq(){
+    width:100%;
+    width: 67vw;
+    height: 11vh;
+    color: black;
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    line-height: 20px;
+    margin-top: -170px;
+    letter-spacing: initial;
+    box-sizing: border-box;
+  }
+  color: black;
+  font-size: 19px;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  line-height: 30px;
+  padding: 20px;
+  margin-top: -90px;
+  margin-bottom: 40px;
+  letter-spacing: initial;
+  box-sizing: border-box;
+}
+.button:hover {
+  background-color: #fff;
+  border-color: rgba(#ad7508, 0.87);
+  color:rgba(#ad7508, 0.87);
+}
+.button__re{
+  background-color: black;
+  color: #fff;
+  position: relative;
+  left: -870px;
+  top: 150px;
+  padding: 30px 20px 30px 10px;
+}
+.button__re:hover{
+  background-color: #59b1eb;
+}
+.mail__center{
+  font-size: 16px;
+  font-weight: 300;
+}

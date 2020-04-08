@@ -1,0 +1,5 @@
+[2020-1-8 10:44:56] layer "株式会社ナイン（nine.Inc）": Expected end of input but "\uFF09" found.
+[2020-1-8 10:27:24] layer "pict_link.svg": Duplicate path: pict_link.svg
+[2020-1-8 10:27:24] layer "pict_link.svg": Duplicate path: pict_link.svg
+[2020-1-8 10:27:24] layer "pict_link.svg": Duplicate path: pict_link.svg
+[2020-1-8 10:44:56] layer "pict_fb.png": Duplicate path: pict_fb.png

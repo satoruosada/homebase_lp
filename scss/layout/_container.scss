@@ -1,0 +1,297 @@
+//==============
+//l-container
+//==============
+.l-container{
+  width:$site-width;
+  @include mq(){
+    width:100%;
+  }
+  margin-left: auto;
+  margin-right: auto;
+  padding-top:80px;
+  margin-top: 140px;
+  &__body{
+    width:$site-width;
+    @include mq(){
+      width:100%;
+    }
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 120px;
+    padding-bottom: 120px;
+   .comment{
+     position: relative;
+    top: -40px;
+    left: px;
+    text-align: center;
+    letter-spacing: 0.16em;
+    line-height: 2em;
+    font-size: 18px;
+    font-family: sans-serif;
+    padding-left: 50px;
+    padding-right: 50px;
+    @include mq(){
+      position: relative;
+      top:150px;
+      font-size: 12px;
+    }
+   }
+   .comment2{
+    position: relative;
+    top: -90px;
+    left: 0px;
+    text-align: left;
+    font-size: 15px;
+    margin-bottom: -90px;
+    @include mq{
+      width: 90%;
+    margin: 0 auto;
+    }
+   }
+   .comment3{
+    position: relative;
+    top: -40px;
+    left: 0px;
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: -90px;
+    line-height: 30px;
+   }
+  }
+  &__subtitle{
+    color: black;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 90px;
+    display: block;
+  }
+  &__title{
+    font-size: 38px;
+    font-family: sans-serif;
+    color: #131212;
+    font-weight: bold;
+    position: relative;
+    left: -10px;
+    text-align: center;
+    margin-top: 370px;
+    margin-bottom: 60px;
+    &__sub{
+      position: relative;
+      left: 440px;
+      top: 90px;
+    }
+    @include mq(){
+      width: 100%;
+      font-size: 30px;
+      position: relative;
+      top: 180px;
+    }
+    &__sird{
+      font-size: $font-size_3l;
+      color: rgb(19, 18, 18);
+      font-weight: bold;
+      position: relative;
+      left: -10px;
+      margin-top: -200px;
+    }
+  }
+
+  .ip{
+    margin: 100px;
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: -120px;
+  }
+  &__frame{
+    width: 360px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 50px;
+    padding-left: 50px;
+    border: 7px solid black;
+    border-radius: 3px;
+    margin-bottom: 46px;
+    margin-top: -100px;
+  }
+  &__pro{
+    text-align: center;
+    color: rgb(10, 10, 10);
+    list-style: none;
+    .space{
+      line-height: 10px;
+    }
+  }
+  &__wrap__body__sidebar1{
+    height: 100%;
+    padding-right: 40px;
+    line-height: 30px;
+    text-align: center;
+    color: #0e0c0c;
+    width: 600px;
+    float: left;
+    box-sizing: border-box;
+    border-right: 1px solid #222;
+    @include mq(){
+      width: 100%;
+      border-right: none;
+      padding-right: 0;
+      padding-bottom: 30px;
+    }
+  }
+  &__wrap__body__side{
+    height: 100%;
+    padding-right: 40px;
+    line-height: 100px;
+    text-align: center;
+    color: #0e0c0c;
+    width: 550px;
+    float: left;
+    box-sizing: border-box;
+    border-right: 1px solid #222;
+    @include mq(){
+      width: 100%;
+      border-right: none;
+      padding-right: 0;
+      padding-bottom: 30px;
+    }
+  }
+  &__wrap__body__title{
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 6px;
+    font-family: sans-serif;
+    padding-left:20px;
+    @include mq{
+      font-size: 17px;
+    }
+
+  }
+}
+.main-wrap{
+  height:551px;
+  text-align: center;
+  color: #fff;
+  width:100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -270px;
+  overflow: hidden;
+  h6{
+    font-size: $font-size_xl;
+    font-weight: bold;
+    position: relative;
+    right: -30px;
+  }
+  .cowa{
+    position: relative;
+    left: -40px;
+    top: 10px;
+    font-weight: bold;
+  }
+  .space{
+    font-size: 18px;
+    position: relative;
+    top: 60px;
+    left: -200px;
+    text-align: center;
+  }
+  .time{
+    font-size: 18px;
+    position: relative;
+    top: 100px;
+    left: -16px;
+    text-align: center;
+  }
+  .setubi{
+    font-size: 18px;
+    position: relative;
+    top: 100px;
+    left: -16px;
+    text-align: center;
+  }
+}
+
+.sidebar2{
+  height: 100%;
+  text-align: center;
+  color: #0e0c0c;
+  width: 500px;
+  float: left;
+  @include mq(){
+    width:100%;
+  }
+}
+.ku{
+  position: relative;
+  top: 370px;
+  left: -30px;
+}
+.rental{
+  font-size: 17px;
+  font-weight: bold;
+  position: relative;
+  top: 10px;
+  left: 30px;
+  @include mq{
+    font-size: 12px;
+    position: relative;
+    top: -5px;
+    left: -10px;
+  }
+}
+.meet{
+  position: relative;
+  top: 60px;
+  left: 50px;
+  text-align: justify;
+  font-size: 18px;
+  @include mq{
+    position: relative;
+    top: 30px;
+    left: 30px;
+    width: 90%;
+    text-align: justify;
+    font-size: 12px;
+  }
+}
+.kakaku{
+  font-size: 18px;
+  position: relative;
+  top: 80px;
+  left: 6px;
+  @include mq{
+    position: relative;
+    top: 90px;
+    left: 30px;
+    width: 90%;
+    text-align: justify;
+    font-size: 14px;
+  }
+}
+.eigyo{
+  position: relative;
+  top: 30px;
+  left: 20px;
+  font-size: 14px;
+  &__sub{
+    position: relative;
+   top: 30px;
+   left: -10px;
+  }
+}
+
+.co{
+  position: relative;
+  top: -300px;
+  left: 449px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  @include mq(){
+    position: relative;
+    left: 110px;
+  }
+}
